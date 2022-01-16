@@ -1,0 +1,22 @@
+{
+  "namespace": "com.markuvinicius.playground.avro",
+  "name": "TweetMessage",
+  "type": "record",
+  "fields": [
+    {
+      "name": "user_name",
+      "type": "string",
+      "doc": "name of the user"
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "doc": "date when the tweet message was originally posted"
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "doc": "the message itself"
+    }
+  ]
+}

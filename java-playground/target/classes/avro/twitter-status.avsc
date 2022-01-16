@@ -1,0 +1,106 @@
+[
+  {
+    "namespace": "com.markuvinicius.playground.avro",
+    "type": "record",
+    "name": "TwitterUser",
+    "fields": [
+      {
+        "name": "id",
+        "type": "long",
+        "default": -1,
+        "doc": "User identification number on Twitter platform"
+      },
+      {
+        "name": "createdAt",
+        "type": "string",
+        "default": "",
+        "doc": "The point in time the user was created on Twitter platform"
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "default": "",
+        "doc": "The language spoken by the user"
+      },
+      {
+        "name": "email",
+        "type": ["null","string"],
+        "default": null,
+        "doc": "The user's email"
+      },
+      {
+        "name": "followersCount",
+        "type": "int",
+        "default": 0,
+        "doc": "The number of followers the user has"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "default": "",
+        "doc": "The user's name"
+      },
+      {
+        "name": "screenName",
+        "type": "string",
+        "default": "",
+        "doc": "The User's name shown on screen"
+      }
+    ]
+  },
+  {
+    "namespace": "com.markuvinicius.playground.avro",
+    "type": "record",
+    "name": "TwitterStatus",
+    "fields": [
+      {
+        "name": "country",
+        "type": ["null","string"],
+        "default": null,
+        "doc": "The Country in with the status was updated"
+      },
+      {
+        "name": "id",
+        "type": "long",
+        "default": -1,
+        "doc": "User identification number on Twitter platform"
+      },
+      {
+        "name": "createdAt",
+        "type": "string",
+        "default": "",
+        "doc": "The point in time the user was created on Twitter platform"
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "default": "",
+        "doc": "The language spoken by the user"
+      },
+      {
+        "name": "favoriteCount",
+        "type": "int",
+        "default": 0,
+        "doc": "The number of favorite interactions the status received"
+      },
+      {
+        "name": "retweetCount",
+        "type": "int",
+        "default": 0,
+        "doc": "The number of retweet messages the status received"
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "default": "",
+        "doc": "The status message"
+      },
+      {
+        "name": "user",
+        "type": ["null","TwitterUser"],
+        "default": null,
+        "doc": "The user who posted the status"
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Amazon.com Inc. Java 1.8.0_312)
+[debug] Load.defaultLoad until apply took 580.0615ms
+[debug]           Load.loadUnit: plugins took 94.371ms
+[debug]           Load.loadUnit: defsScala took 0.5484ms
+[debug] [Loading] Scanning directory C:\Users\marku\Workspace\scala-playground\project
+[debug]             Load.loadUnit: mkEval took 10.8539ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\marku\Workspace\scala-playground\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.7895 ms
+[info] loading settings for project scala-playground-build from plugins.sbt ...
+[debug]               Load.resolveProject(scala-playground-build) took 67.2581ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-playground-build, base: C:\Users\marku\Workspace\scala-playground\project, plugins: List(<none>))) took 111.3286ms
+[debug] [Loading] Done in C:\Users\marku\Workspace\scala-playground\project, returning: (scala-playground-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 419.3117ms
+[debug]           Load.loadUnit: cleanEvalClasses took 12.039ms
+[debug]         Load.loadUnit(file:/C:/Users/marku/Workspace/scala-playground/project/, ...) took 534.4117ms
+[debug]       Load.apply: load took 727.2527ms
+[debug]       Load.apply: resolveProjects took 9.5922ms
+[debug]       Load.apply: finalTransforms took 92.1918ms
+[debug]       Load.apply: config.delegates took 15.5907ms
+[debug]       Load.apply: Def.make(settings)... took 580.6704ms
+[debug]       Load.apply: structureIndex took 103.414ms
+[debug]       Load.apply: mkStreams took 1.6486ms
+[info] loading project definition from C:\Users\marku\Workspace\scala-playground\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2635.1009ms
+[debug]     Load.loadUnit: defsScala took 0.0058ms
+[debug] [Loading] Scanning directory C:\Users\marku\Workspace\scala-playground
+[debug]       Load.loadUnit: mkEval took 0.6913ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\marku\Workspace\scala-playground, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.1494 ms
+[info] loading settings for project scala-playground from build.sbt ...
+[debug]         Load.resolveProject(scala-playground) took 1.6302ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id scala-playground, base: C:\Users\marku\Workspace\scala-playground, plugins: List(<none>))) took 4.3071ms
+[debug] [Loading] Done in C:\Users\marku\Workspace\scala-playground, returning: (scala-playground)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2202.0236ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.6603ms
+[debug]   Load.loadUnit(file:/C:/Users/marku/Workspace/scala-playground/, ...) took 4846.7981ms
+[debug] Load.apply: load took 4994.6421ms
+[debug] Load.apply: resolveProjects took 0.1096ms
+[debug] Load.apply: finalTransforms took 13.215ms
+[debug] Load.apply: config.delegates took 0.4821ms
+[debug] Load.apply: Def.make(settings)... took 171.6403ms
+[debug] Load.apply: structureIndex took 38.3597ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[info] set current project to scala-playground (in build file:/C:/Users/marku/Workspace/scala-playground/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * scala-playground / idePackagePrefix
+[warn]   +- C:\Users\marku\Workspace\scala-playground\build.sbt:7
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-c83629d4a8d0fb15c7a6
+[debug] Writing bsp connection file
+[info] started sbt server
